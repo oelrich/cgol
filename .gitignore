@@ -1,3 +1,6 @@
+# Ignore stuff from the editor.
+.vscode
+# And CMake garbage.
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
