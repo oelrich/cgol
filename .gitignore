@@ -1,5 +1,4 @@
 # Ignore stuff from the editor.
-.vscode
 # And CMake garbage.
 CMakeCache.txt
 CMakeFiles
@@ -8,3 +7,4 @@ Makefile
 cmake_install.cmake
 install_manifest.txt
 CTestTestfile.cmake
+build
