@@ -13,4 +13,9 @@ size_t cgol::height() { return _height; }
 size_t cgol::width() { return _width; }
 std::vector<char> cgol::board() { return _board; }
 
+void cgol::set(int x, int y) {
+  auto position = y * _width + x;
+  _board[position] = '#';
+}
+
 cgol::~cgol() {}

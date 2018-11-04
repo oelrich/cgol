@@ -12,5 +12,6 @@ public:
   ~cgol();
   size_t height();
   size_t width();
+  void set(int x, int y);
   std::vector<char> board();
 };
