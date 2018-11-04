@@ -1,6 +1,9 @@
+#define CATCH_CONFIG_MAIN
 #include <catch.hpp>
 
-TEST_CASE( "The test suit runs", "[cgol]") {
+#include "cgol.hpp"
+
+TEST_CASE( "The game should have some height", "[cgol]") {
   REQUIRE( true );
 }
 

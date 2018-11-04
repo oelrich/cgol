@@ -1,13 +1,8 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.10.0)
 project(cgol VERSION 0.1.0)
+set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(test)
+enable_testing()
 
 add_subdirectory(src)
-
-add_executable(cgolapp src/console.cpp)
-target_link_libraries(cgolapp cgol)
-
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
+add_subdirectory(test)
